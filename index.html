@@ -1,0 +1,81 @@
+<!DOCTYPE html/>
+<html>
+    <head>
+        <style>
+  :root {
+  --clr-neon: hsl(50 100% 54%);
+  --clr-bg: hsl(100 100% 3%);
+}
+
+body {
+  background: black;
+  color: var(--clr-neon);
+  display: grid;
+  font-family: "Arial", cursive;
+  min-height: 100vh;
+  place-items: center;
+}
+
+a {
+  align-items: center;
+  background-color: black;
+  border: var(--clr-neon) 0.125em solid;
+  border-radius: 0.25em;
+  color: var(--clr-neon);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.25em 1em;
+  text-decoration: none;
+}
+
+.main {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.space {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="main">
+                <div class="links">
+                  <div class="center" > 
+                    <a href="WhatTheHell.html" class="item neon">What the hell did I just read?</a>
+                  </div>
+                  <div class="space" >
+                    <a href="WasntForMe.html" class="item2 neon">wasn't for me</a> <a href="WorthTheRead.html" class="item3 neon">worth the read</a>
+                  </div>
+                  <div class="center" >
+                    <a href="#" class="home">SCREENPLAY RATINGS</a>
+                  </div>
+                  <div class="space" >
+                    <a href="Genius.html" class="item4 neon">genius</a>
+              <a href="Impressive.html" class="item5 neon">impressive</a>
+                  </div>
+                </div>
+              </div>
+    </body>
+</html>
